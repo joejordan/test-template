@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*",
+    "*.mjs",
+    "*.cjs",
+    "*.js",
+    "*.ts",
+    "**/*.ts",
+    "**/*.js",
+    "**/*.cjs",
+    "**/*.mjs"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
